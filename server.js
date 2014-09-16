@@ -25,7 +25,7 @@ app.use( express.static( path.join( __dirname, 'site') ) );
 //Routes
 
 app.get('/', function(req, res, next){
-	res.send('express working');
+	res.status(200);
 });
 
 app.listen(5000, function(){
