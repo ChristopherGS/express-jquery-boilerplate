@@ -15,6 +15,7 @@
         <link rel="stylesheet" href="css/mocha.css" />
         <script src="bower_components/modernizr/modernizr.js"></script>
 		<script src="bower_components/jquery/jquery.js"></script>
+		<script src="js/promotionManager.js"></script>
 		
 		<script src="js/lib/mocha.js"></script>
 		<script src="js/lib/chai.js"></script>
@@ -29,8 +30,10 @@
 		<!-- Set up Chai and Mocha.-->
 		 
 		 <script>
-		 
+			var foo = 'bar'
+			var beverages = { tea: [ 'chai', 'matcha', 'oolong' ] };
 			window.expect = chai.expect;
+			window.should = chai.should();
 			mocha.setup("bdd");
       
 			// Run tests on window load.
