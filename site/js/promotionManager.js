@@ -1,5 +1,5 @@
   var promotionManager = {};
-  var user = {wins: 25, losses: 5, belt: "WhiteBelt", sweeps: 11};
+ 
   var obj = { foo: 'bar' };
 
   user.check = function (user) {
